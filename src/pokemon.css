@@ -1,0 +1,91 @@
+*{
+    font-family: 'Century Gothic', sans-serif;
+}
+
+
+
+.pokemonImage, img{
+    max-width: 150px;
+}
+
+.detail-container{
+    max-width: 500px;
+    margin: auto !important;
+}
+
+.detail-container img {
+    max-width: 150px !important;
+}
+
+.tittlePokemon{
+    font-weight: 700;
+    color: rgb(23, 157, 157);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.containerButtonsPokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.containerMediumButton{
+    padding-left: 100px;
+    width: 100%;
+}
+
+.buttonClassPokemon{
+    width: 220px;
+    background-color: rgb(23, 157, 157);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.buttonClassPokemon:hover{
+    width: 220px;
+    background-color: white;
+    border: 1px solid rgb(23, 157, 157);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(23, 157, 157);
+}
+
+.buttonBack{
+    width: 90px;
+    background-color: rgb(23, 157, 157);
+    border: 1px solid rgb(23, 157, 157);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.buttonBack:hover{
+    width: 90px;
+    background-color: white;
+    border: 1px solid rgb(23, 157, 157);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(23, 157, 157);
+}
+
+.namePokemon {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(23, 157, 157);
+}
+
+
+
+
+/* h3{
+    background-color: rgb(23, 157, 157);
+} */
